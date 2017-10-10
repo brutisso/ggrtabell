@@ -1,5 +1,5 @@
 body {
-    font-size: 30px;
+    font-size: 3em;
 }
 
 #main {
@@ -9,12 +9,12 @@ body {
 }
 
 #answer {
-    font-size: 30px;
+    font-size: 1em;
     width: 100px;
 }
 
 #check {
-    font-size: 30px;
+    font-size: 3em;
 }
 
 ul {
@@ -28,7 +28,7 @@ li {
 #count {
     margin-top: 10px;
     text-align:center;
-    font-size: 10px;
+    font-size: 1em;
 }
 
 .resultDiv {
