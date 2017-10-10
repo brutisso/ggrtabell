@@ -10,6 +10,7 @@ function updateValues() {
     y = Math.floor((Math.random() * 10) + 1);;
     $("#valueLabel").text(x + " * " + y + " = ");
     $("#answer").val("");
+    $("#answer").focus();
 }
 
 function saveResult() {
@@ -29,3 +30,9 @@ function checkAnswer() {
     }
     $("#count").html(correctCount + " rätta svar / " + incorrectCount + " fel svar");
 }
+
+$(document).keypress(function(e) {
+    if(e.which == 13) {
+        checkAnswer();
+    }
+});
