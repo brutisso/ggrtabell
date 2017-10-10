@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="ggrtabell.css">
+
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="ggrtabell.js"></script>
+
+</head>
+<body onload="updateValues()">
+
+<meta charset="UTF-8">
+<title>G&aring;ngertabellen</title>
+<div id="main">
+    <div id="content">
+        <label id="valueLabel" for="answer">value</label>
+        <input id="answer" type="text"> </input>
+        <input id="check" type="button" value="R&auml;tta" onclick="checkAnswer()"/>
+    </div>
+    <div id="count" > </div>
+    <div class="resultDiv">
+        <ul id="results" />
+    </div>
+</div>
+</body>
+</html>
