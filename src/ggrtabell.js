@@ -8,13 +8,13 @@ var incorrectCount = 0;
 function updateValues() {
     x = Math.floor((Math.random() * 10) + 1);;
     y = Math.floor((Math.random() * 10) + 1);;
-    $("#valueLabel").text(x + " * " + y + " = ");
+    $("#valueLabel").html(x + " &#9679; " + y + " = ");
     $("#answer").val("");
     $("#answer").focus();
 }
 
 function saveResult() {
-    var result = "<li>" + x + " * " + " " + y + " = " + (x * y) + "</li>";
+    var result = "<li>" + x + " &#9679; " + " " + y + " = " + (x * y) + "</li>";
     $("#results").prepend(result);
 }
 

@@ -13,6 +13,10 @@ body {
     width: 100px;
 }
 
+#check {
+    font-size: 2em;
+}
+
 ul {
     list-style-image: url('correct.png');
 }
